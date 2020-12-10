@@ -1,0 +1,101 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #c5c6c7;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  height: 100vh;
+}
+
+/* Title Section */
+
+#title {
+  background-image: url("../images/group_base.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* height: 100vh; */
+}
+
+.rgba-gradient {
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 30, 80, 0.8) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    45deg,
+    from(rgba(0, 0, 0, 0.8), rgba(0, 30, 80, 0.8) 100%)
+  );
+  background: linear-gradient(
+    to 45deg,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 30, 80, 0.8) 100%
+  );
+}
+
+.navbar {
+  padding: 0 0 1rem;
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28216, 63, 135, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-link {
+  font-family: "Montserrate", sans-serif;
+  color: #c5c6c7;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.current {
+  color: #fe29fb;
+}
+
+.nav-link:hover {
+  color: #fe29fb;
+}
+
+.nav-item {
+  padding: 0 30px 0 0;
+}
+
+.logo {
+  width: 15%;
+  padding: 0;
+  margin: 0;
+}
+
+.landing {
+  height: 70vh;
+}
+
+.play-btn {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #fe29fb;
+  border: #fe29fb solid 2px;
+  border-radius: 10px;
+  margin: 5% 3% 5% 0%;
+}
+
+.play-btn:hover {
+  border: #c5c6c7 solid 2px;
+  background-color: #fe29fb;
+  color: #fff;
+}
